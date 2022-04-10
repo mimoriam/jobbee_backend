@@ -43,6 +43,10 @@ INSTALLED_APPS = [
 
     # Third-party:
     'django.contrib.gis',
+    'rest_framework',
+    'corsheaders',
+    'django_filters',
+    'storages',
 
     # Local:
     'job.apps.JobConfig',
